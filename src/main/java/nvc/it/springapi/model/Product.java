@@ -7,6 +7,7 @@ import java.util.List;
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.annotation.LastModifiedBy;
+import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import lombok.Getter;
@@ -27,7 +28,7 @@ public class Product {
     @CreatedDate
     private Date createdAt;
 
-    @LastModifiedBy
+    @LastModifiedDate
     private Date updatedAt;
 
 }

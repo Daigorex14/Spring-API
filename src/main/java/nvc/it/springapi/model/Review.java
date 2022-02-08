@@ -8,6 +8,4 @@ import lombok.Setter;
 public class Review {
     private Integer star;
     private String comment;
-
-    
 }
